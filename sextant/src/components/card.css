@@ -6,19 +6,24 @@
     justify-content: space-between;
     margin : 2rem;
     border-radius: 0.5rem;
-    cursor: pointer;
-    transition: tranform 200ms ease-in;
-    width: 250px;
+    /* cursor: pointer; */
+    /* transition: tranform 200ms ease-in; */
+    width: 300px;
 }
 
-.card-container:hover{
+/* .card-container:hover{
     transform: scale(1.02);
     box-shadow: 0px 0px 15px 0px;
-}
+} */
 
 .image-container img{
     height: 12rem;
     width: 100%;
     object-fit: cover;
+}
+
+.card-text {
+    justify-content: center;
+    margin: 1rem;
 }
 
