@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './components/banner';
 import Card from './components/card';
 import AddressDisplay from './components/ipAddress';
+import PylonConnector from './components/pylonConnector';
 
 function App() {
 //   const [ip6, setIp6] = useState('')
@@ -30,6 +31,9 @@ function App() {
         //title = 'testing'
         name = 'Public IPv6'>
             <AddressDisplay url = 'https://api64.ipify.org?format=json' />
+        </Card>
+        <Card name = 'Pylon Packet Latency'>
+          <PylonConnector />
         </Card>
       </div>
     </>
